@@ -24,15 +24,23 @@
 
 
 // task2
-// console.log(pseudo(4,3,6,2,6,43,4,2,6,3,3));
+
+// console.log(pseudo(7,8,9,0,8,7,7,6,5,45,8));
 // function pseudo(){
+//     let massive = [];
+// for(let i = 0; i < arguments.length; i++ ){
+// massive[i] = arguments[i];
+// }
 //     let elem = 0;
 //     if(arguments.length > 10){
-//         return arguments;
+//         return massive;
+//     }
+//     if(arguments.length === 0){
+//         return 'There are no arguments';
 //     }
 //     else{
 //         for(let i = 0; i < arguments.length; i++){
-//             elem += arguments[i];
+//             elem += massive[i];
 //         }
 //     }
 //     return elem;
